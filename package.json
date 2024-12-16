@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend of powershop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "express",
+    "mean",
+    "angular",
+    "node",
+    "jwt",
+    "jest"
+  ],
+  "author": "Alan Alexis Hernandez Francisco",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2"
+  }
+}
